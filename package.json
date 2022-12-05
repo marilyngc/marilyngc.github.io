@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/marilyngc/Our-Planet/issues"
   },
-  "homepage": "https://github.com/marilyngc/Our-Planet#readme"
+  "homepage": "https://github.com/marilyngc/Our-Planet#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
 }
