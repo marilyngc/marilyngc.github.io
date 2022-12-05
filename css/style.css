@@ -59,11 +59,6 @@ body {
   transform: translateX(0%);
 }
 
-.background-figure {
-  background-image: url(../img/layered-waves-haikei.png);
-  background-size: 100%;
-}
-
 .font-text {
   letter-spacing: -0.05em;
   font-family: "Josefin Sans", sans-serif;
