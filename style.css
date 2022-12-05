@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1d1d1f;
+  font-family: "montserrat";
+}
+
+.navbar {
+  background-color: #1d1d1f;
+}
+.navbar .navbar-brand {
+  font-family: "Sigmar One", cursive;
+  font-size: 3rem;
+  padding-left: 2rem;
+}
+
+.login {
+  text-transform: uppercase;
+  border: 2px solid #a284ed;
+  font-weight: 800;
+  letter-spacing: 4px;
+  position: relative;
+  overflow: hidden;
+  transition: all 2s;
+}
+.login ::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #a284ed;
+  z-index: -1;
+  transform: translateX(-100%);
+  transition: all 2s;
+}
+.login :hover::before {
+  transform: translateX(0%);
+}
+.login a {
+  color: white;
+  transition: color 2s;
+}
+.login a :hover {
+  color: #1d1d1f;
+}
+
+/*# sourceMappingURL=style.css.map */

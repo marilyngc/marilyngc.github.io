@@ -1,0 +1,23 @@
+.background-figure {
+  background-image: url(../img/layered-waves-haikei.png);
+  background-size: 100%;
+}
+.font-text {
+  letter-spacing: -0.05em;
+  font-family: $tittleH1;
+  color: white;
+}
+
+.color-text {
+  color: $colorViolet;
+  font-size: 2rem;
+}
+.color-primary {
+  color: $colorCelest;
+}
+.color-secondary {
+  color: $colorViolet;
+}
+.color-third {
+  color: $colorYellow;
+}
